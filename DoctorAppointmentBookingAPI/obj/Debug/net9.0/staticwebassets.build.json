@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Il1z6iWyYgrlzN7cEHn4rRjccd7nFezjYEjFMOfrAI8=",
+  "Source": "DoctorAppointmentBookingAPI",
+  "BasePath": "_content/DoctorAppointmentBookingAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
