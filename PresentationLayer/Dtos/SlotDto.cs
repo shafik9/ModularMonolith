@@ -1,12 +1,10 @@
-namespace DataLayer.Entities;
+namespace PresentationLayer.Dtos;
 
-public class DbSlot
+public class SlotDto
 {
-    public Guid Id { get; set; }
     public DateTime StartTime { get; set; }
     public DateTime EndTime { get; set; }
     public Guid DoctorId { get; set; }
     public string? DoctorName { get; set; }
-    public bool IsReserved { get; set; }
     public decimal Cost { get; set; }
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kvJg0vz+1vk=",
+  "dgSpecHash": "i0s2KHwgQQg=",
   "success": true,
   "projectFilePath": "C:\\Users\\hossam\\github\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\hossam\\.nuget\\packages\\csharpfunctionalextensions\\3.4.3\\csharpfunctionalextensions.3.4.3.nupkg.sha512",
     "C:\\Users\\hossam\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
     "C:\\Users\\hossam\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",
     "C:\\Users\\hossam\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.1\\microsoft.entityframeworkcore.abstractions.9.0.1.nupkg.sha512",

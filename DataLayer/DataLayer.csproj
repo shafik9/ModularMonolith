@@ -10,4 +10,10 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="CSharpFunctionalExtensions">
+        <HintPath>..\..\..\.nuget\packages\csharpfunctionalextensions\3.4.3\lib\net8.0\CSharpFunctionalExtensions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>
