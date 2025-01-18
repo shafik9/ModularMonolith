@@ -10,6 +10,7 @@ C:\Users\hossam\github\ModularMonolith\Domain\obj\Debug\net9.0\Domain.dll
 C:\Users\hossam\github\ModularMonolith\Domain\obj\Debug\net9.0\refint\Domain.dll
 C:\Users\hossam\github\ModularMonolith\Domain\obj\Debug\net9.0\Domain.pdb
 C:\Users\hossam\github\ModularMonolith\Domain\obj\Debug\net9.0\ref\Domain.dll
+<<<<<<< HEAD
 C:\Users\HodaElKholy\source\repos\ModularMonolith\Domain\bin\Debug\net9.0\Domain.deps.json
 C:\Users\HodaElKholy\source\repos\ModularMonolith\Domain\bin\Debug\net9.0\Domain.dll
 C:\Users\HodaElKholy\source\repos\ModularMonolith\Domain\bin\Debug\net9.0\Domain.pdb
@@ -22,3 +23,6 @@ C:\Users\HodaElKholy\source\repos\ModularMonolith\Domain\obj\Debug\net9.0\Domain
 C:\Users\HodaElKholy\source\repos\ModularMonolith\Domain\obj\Debug\net9.0\refint\Domain.dll
 C:\Users\HodaElKholy\source\repos\ModularMonolith\Domain\obj\Debug\net9.0\Domain.pdb
 C:\Users\HodaElKholy\source\repos\ModularMonolith\Domain\obj\Debug\net9.0\ref\Domain.dll
+=======
+C:\Users\hossam\github\ModularMonolith\Domain\obj\Debug\net9.0\Domain.csproj.AssemblyReference.cache
+>>>>>>> e1ca13ee214c8313524f5bc0c86961cc27dc71ba

@@ -16,6 +16,7 @@ C:\Users\hossam\github\ModularMonolith\Presentation\obj\Debug\net9.0\Presentatio
 C:\Users\hossam\github\ModularMonolith\Presentation\obj\Debug\net9.0\refint\Presentation.dll
 C:\Users\hossam\github\ModularMonolith\Presentation\obj\Debug\net9.0\Presentation.pdb
 C:\Users\hossam\github\ModularMonolith\Presentation\obj\Debug\net9.0\ref\Presentation.dll
+<<<<<<< HEAD
 C:\Users\hossam\github\ModularMonolith\Presentation\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Core.dll
 C:\Users\hossam\github\ModularMonolith\Presentation\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
 C:\Users\hossam\github\ModularMonolith\Presentation\bin\Debug\net9.0\Microsoft.AspNetCore.Authorization.dll
@@ -54,3 +55,5 @@ C:\Users\HodaElKholy\source\repos\ModularMonolith\Presentation\obj\Debug\net9.0\
 C:\Users\HodaElKholy\source\repos\ModularMonolith\Presentation\obj\Debug\net9.0\refint\Presentation.dll
 C:\Users\HodaElKholy\source\repos\ModularMonolith\Presentation\obj\Debug\net9.0\Presentation.pdb
 C:\Users\HodaElKholy\source\repos\ModularMonolith\Presentation\obj\Debug\net9.0\ref\Presentation.dll
+=======
+>>>>>>> e1ca13ee214c8313524f5bc0c86961cc27dc71ba

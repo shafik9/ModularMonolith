@@ -58,6 +58,7 @@ C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net
 C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\NSwag.Generation.AspNetCore.dll
 C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\YamlDotNet.dll
 C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\CSharpFunctionalExtensions.dll
+<<<<<<< HEAD
 C:\Users\HodaElKholy\source\repos\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\HodaElKholy\source\repos\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\appsettings.json
 C:\Users\HodaElKholy\source\repos\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\DoctorAppointmentBookingAPI.staticwebassets.endpoints.json
@@ -119,3 +120,15 @@ C:\Users\HodaElKholy\source\repos\ModularMonolith\DoctorAppointmentBookingAPI\ob
 C:\Users\HodaElKholy\source\repos\ModularMonolith\DoctorAppointmentBookingAPI\obj\Debug\net9.0\DoctorAppointmentBookingAPI.pdb
 C:\Users\HodaElKholy\source\repos\ModularMonolith\DoctorAppointmentBookingAPI\obj\Debug\net9.0\DoctorAppointmentBookingAPI.genruntimeconfig.cache
 C:\Users\HodaElKholy\source\repos\ModularMonolith\DoctorAppointmentBookingAPI\obj\Debug\net9.0\ref\DoctorAppointmentBookingAPI.dll
+=======
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Scrutor.dll
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Application.dll
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Domain.dll
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Infrastructure.dll
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Presentation.dll
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Infrastructure.pdb
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Presentation.pdb
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Application.pdb
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Domain.pdb
+>>>>>>> e1ca13ee214c8313524f5bc0c86961cc27dc71ba
