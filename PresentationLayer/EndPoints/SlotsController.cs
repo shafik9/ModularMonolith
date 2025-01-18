@@ -61,7 +61,7 @@ public class SlotsController(SlotRepo slotRepo) : DoctorAvailabilityEndPoint
         if (createdSlot.IsFailure)
             return BadRequest(createdSlot.Error);
 
-        var dbSlot = createdSlot.Value.Map<DbSlot>();
+        var dbSlot = createdSlot.Value.Map();
 
 
         await slotRepo.AddSlot(dbSlot);
