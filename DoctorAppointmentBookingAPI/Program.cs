@@ -1,6 +1,8 @@
 using System.Reflection;
 using DoctorAppointmentBookingAPI;
-
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Builder;
+using NSwag.AspNetCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,13 +10,24 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.InstallAvailabilityModules();
 builder.Services.AddControllers()
-    .AddApplicationPart(Assembly.GetAssembly(typeof(PresentationLayer.EndPointMarker.DoctorAvailabilityEndPoint)));
+    .AddApplicationPart(Assembly.GetAssembly(typeof(PresentationLayer.EndPointMarker.DoctorAvailabilityEndPoint))!);
+
+builder.Services.AddEndpointsApiExplorer(); 
+builder.Services.AddSwaggerGen(c
+    =>
+{
+    
+});
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
@@ -23,6 +36,11 @@ var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+app.UseOpenApi();
+app.UseSwaggerUI(settings =>
+{
+    
+});
 
 app.UseRouting();
 app.UseEndpoints(endpoints =>
