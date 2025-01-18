@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "BusinessLayer/1.0.0": {
         "dependencies": {
-          "DataLayer": "1.0.0"
+          "DataLayer": "1.0.0",
+          "CSharpFunctionalExtensions": "3.4.3.0"
         },
         "runtime": {
           "BusinessLayer.dll": {}
@@ -136,6 +137,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "CSharpFunctionalExtensions/3.4.3.0": {
+        "runtime": {
+          "CSharpFunctionalExtensions.dll": {
+            "assemblyVersion": "3.4.3.0",
+            "fileVersion": "3.4.3.0"
+          }
+        }
       }
     }
   },
@@ -224,6 +233,11 @@
     },
     "DataLayer/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSharpFunctionalExtensions/3.4.3.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

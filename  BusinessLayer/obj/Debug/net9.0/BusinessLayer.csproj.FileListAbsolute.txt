@@ -14,3 +14,6 @@ C:\Users\hossam\github\ModularMonolith\ BusinessLayer\obj\Debug\net9.0\BusinessL
 C:\Users\hossam\github\ModularMonolith\ BusinessLayer\obj\Debug\net9.0\refint\BusinessLayer.dll
 C:\Users\hossam\github\ModularMonolith\ BusinessLayer\obj\Debug\net9.0\BusinessLayer.pdb
 C:\Users\hossam\github\ModularMonolith\ BusinessLayer\obj\Debug\net9.0\ref\BusinessLayer.dll
+C:\Users\hossam\github\ModularMonolith\ BusinessLayer\bin\Debug\net9.0\CSharpFunctionalExtensions.dll
+C:\Users\hossam\github\ModularMonolith\ BusinessLayer\bin\Debug\net9.0\CSharpFunctionalExtensions.pdb
+C:\Users\hossam\github\ModularMonolith\ BusinessLayer\bin\Debug\net9.0\CSharpFunctionalExtensions.xml

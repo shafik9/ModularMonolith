@@ -11,3 +11,7 @@ C:\Users\hossam\github\ModularMonolith\DataLayer\obj\Debug\net9.0\refint\DataLay
 C:\Users\hossam\github\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.pdb
 C:\Users\hossam\github\ModularMonolith\DataLayer\obj\Debug\net9.0\ref\DataLayer.dll
 C:\Users\hossam\github\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\hossam\github\ModularMonolith\DataLayer\bin\Debug\net9.0\CSharpFunctionalExtensions.dll
+C:\Users\hossam\github\ModularMonolith\DataLayer\bin\Debug\net9.0\CSharpFunctionalExtensions.pdb
+C:\Users\hossam\github\ModularMonolith\DataLayer\bin\Debug\net9.0\CSharpFunctionalExtensions.xml
+C:\Users\hossam\github\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.csproj.Up2Date

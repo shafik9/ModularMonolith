@@ -57,3 +57,4 @@ C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net
 C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\NSwag.Generation.dll
 C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\NSwag.Generation.AspNetCore.dll
 C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\YamlDotNet.dll
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\CSharpFunctionalExtensions.dll

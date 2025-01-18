@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "DataLayer/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.1"
+          "Microsoft.EntityFrameworkCore": "9.0.1",
+          "CSharpFunctionalExtensions": "3.4.3.0"
         },
         "runtime": {
           "DataLayer.dll": {}
@@ -125,6 +126,14 @@
             "fileVersion": "9.0.124.61010"
           }
         }
+      },
+      "CSharpFunctionalExtensions/3.4.3.0": {
+        "runtime": {
+          "CSharpFunctionalExtensions.dll": {
+            "assemblyVersion": "3.4.3.0",
+            "fileVersion": "3.4.3.0"
+          }
+        }
       }
     }
   },
@@ -210,6 +219,11 @@
       "sha512": "sha512-bHtTesA4lrSGD1ZUaMIx6frU3wyy0vYtTa/hM6gGQu5QNrydObv8T5COiGUWsisflAfmsaFOe9Xvw5NSO99z0g==",
       "path": "microsoft.extensions.primitives/9.0.1",
       "hashPath": "microsoft.extensions.primitives.9.0.1.nupkg.sha512"
+    },
+    "CSharpFunctionalExtensions/3.4.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
