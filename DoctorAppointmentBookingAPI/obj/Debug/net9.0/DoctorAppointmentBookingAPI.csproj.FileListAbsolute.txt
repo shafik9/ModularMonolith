@@ -38,3 +38,6 @@ C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\obj\Debug\net
 C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\obj\Debug\net9.0\DoctorAppointmentBookingAPI.pdb
 C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\obj\Debug\net9.0\DoctorAppointmentBookingAPI.genruntimeconfig.cache
 C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\obj\Debug\net9.0\ref\DoctorAppointmentBookingAPI.dll
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hossam\github\ModularMonolith\DoctorAppointmentBookingAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
