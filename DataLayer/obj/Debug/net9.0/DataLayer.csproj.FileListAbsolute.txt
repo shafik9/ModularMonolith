@@ -15,3 +15,16 @@ C:\Users\hossam\github\ModularMonolith\DataLayer\bin\Debug\net9.0\CSharpFunction
 C:\Users\hossam\github\ModularMonolith\DataLayer\bin\Debug\net9.0\CSharpFunctionalExtensions.pdb
 C:\Users\hossam\github\ModularMonolith\DataLayer\bin\Debug\net9.0\CSharpFunctionalExtensions.xml
 C:\Users\hossam\github\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.csproj.Up2Date
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\bin\Debug\net9.0\DataLayer.deps.json
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\bin\Debug\net9.0\DataLayer.dll
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\bin\Debug\net9.0\DataLayer.pdb
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.AssemblyInfo.cs
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.sourcelink.json
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.dll
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\obj\Debug\net9.0\refint\DataLayer.dll
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\obj\Debug\net9.0\DataLayer.pdb
+C:\Users\HodaElKholy\source\repos\ModularMonolith\DataLayer\obj\Debug\net9.0\ref\DataLayer.dll

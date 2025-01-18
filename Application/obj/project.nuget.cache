@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pfdg2lR10qA=",
+  "dgSpecHash": "/nCpxGl8F+E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hossam\\github\\ModularMonolith\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HodaElKholy\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.102\\microsoft.net.sdk.compilers.toolset.9.0.102.nupkg.sha512"
+  ],
   "logs": []
 }

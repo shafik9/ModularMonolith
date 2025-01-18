@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "CSharpFunctionalExtensions/3.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/CSharpFunctionalExtensions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/CSharpFunctionalExtensions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore/9.0.1": {
         "type": "package",
         "dependencies": {
@@ -197,6 +210,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "CSharpFunctionalExtensions": "3.4.3",
           "Microsoft.EntityFrameworkCore": "9.0.1"
         },
         "compile": {
@@ -209,6 +223,26 @@
     }
   },
   "libraries": {
+    "CSharpFunctionalExtensions/3.4.3": {
+      "sha512": "q2b5Zf2FGON2E3ti8J784x7Ov4b5b+uwi1wfMNCK12BOakJSLT4TwRSxg1j8KLtCOIeFpcO5TBR0eZZBL9wR0Q==",
+      "type": "package",
+      "path": "csharpfunctionalextensions/3.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csharpfunctionalextensions.3.4.3.nupkg.sha512",
+        "csharpfunctionalextensions.nuspec",
+        "lib/net6.0/CSharpFunctionalExtensions.dll",
+        "lib/net6.0/CSharpFunctionalExtensions.pdb",
+        "lib/net6.0/CSharpFunctionalExtensions.xml",
+        "lib/net8.0/CSharpFunctionalExtensions.dll",
+        "lib/net8.0/CSharpFunctionalExtensions.pdb",
+        "lib/net8.0/CSharpFunctionalExtensions.xml",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.dll",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.pdb",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.xml"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/9.0.1": {
       "sha512": "E25w4XugXNykTr5Y/sLDGaQ4lf67n9aXVPvsdGsIZjtuLmbvb9AoYP8D50CDejY8Ro4D9GK2kNHz5lWHqSK+wg==",
       "type": "package",
@@ -556,32 +590,48 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hossam\\.nuget\\packages\\": {}
+    "C:\\Users\\HodaElKholy\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
+    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\ BusinessLayer\\obj\\",
+      "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\hossam\\github\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\DataLayer\\DataLayer.csproj"
+            "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj"
             }
           }
         }
@@ -594,9 +644,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "all"
+      }
     },
     "frameworks": {
       "net9.0": {
@@ -612,6 +661,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.102, 9.0.102]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

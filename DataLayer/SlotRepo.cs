@@ -1,7 +1,6 @@
 using CSharpFunctionalExtensions;
 using DataLayer.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query;
 
 namespace DataLayer;
 

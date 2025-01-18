@@ -118,6 +118,7 @@
       },
       "DataLayer/1.0.0": {
         "dependencies": {
+          "CSharpFunctionalExtensions": "3.4.3",
           "Microsoft.EntityFrameworkCore": "9.0.1"
         },
         "runtime": {
