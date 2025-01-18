@@ -8,10 +8,13 @@
     ".NETCoreApp,Version=v9.0": {
       "DoctorAppointmentBookingAPI/1.0.0": {
         "dependencies": {
+          "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.1",
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.1",
           "NSwag.AspNetCore": "14.2.0",
+          "Presentation": "1.0.0",
           "PresentationLayer": "1.0.0",
+          "Scrutor": "6.0.1",
           "Swashbuckle.AspNetCore": "7.2.0",
           "Swashbuckle.AspNetCore.Swagger": "7.2.0"
         },
@@ -27,6 +30,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.3.0",
+          "System.Text.Encodings.Web": "8.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Extensions/2.3.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.0",
+          "Microsoft.Net.Http.Headers": "2.3.0",
+          "System.Buffers": "4.6.0"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.1"
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/9.0.1": {
         "dependencies": {
           "Microsoft.OpenApi": "1.6.22"
@@ -36,6 +58,20 @@
             "assemblyVersion": "9.0.1.0",
             "fileVersion": "9.0.124.61009"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Routing/2.3.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Extensions": "2.3.0",
+          "Microsoft.AspNetCore.Routing.Abstractions": "2.3.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.1",
+          "Microsoft.Extensions.ObjectPool": "8.0.11",
+          "Microsoft.Extensions.Options": "9.0.1"
+        }
+      },
+      "Microsoft.AspNetCore.Routing.Abstractions/2.3.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.3.0"
         }
       },
       "Microsoft.EntityFrameworkCore/9.0.1": {
@@ -95,6 +131,14 @@
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.1": {},
+      "Microsoft.Extensions.DependencyModel/8.0.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "8.0.0.2",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
       "Microsoft.Extensions.FileProviders.Abstractions/9.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.1"
@@ -117,6 +161,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1"
         }
       },
+      "Microsoft.Extensions.ObjectPool/8.0.11": {},
       "Microsoft.Extensions.Options/9.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
@@ -124,6 +169,12 @@
         }
       },
       "Microsoft.Extensions.Primitives/9.0.1": {},
+      "Microsoft.Net.Http.Headers/2.3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.1",
+          "System.Buffers": "4.6.0"
+        }
+      },
       "Microsoft.OpenApi/1.6.22": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -266,6 +317,18 @@
           }
         }
       },
+      "Scrutor/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
+          "Microsoft.Extensions.DependencyModel": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Scrutor.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/7.2.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -304,11 +367,25 @@
           }
         }
       },
+      "System.Buffers/4.6.0": {},
+      "System.Text.Encodings.Web/8.0.0": {},
       "YamlDotNet/16.2.0": {
         "runtime": {
           "lib/net8.0/YamlDotNet.dll": {
             "assemblyVersion": "16.0.0.0",
             "fileVersion": "16.2.0.0"
+          }
+        }
+      },
+      "Application/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.1"
+        },
+        "runtime": {
+          "Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -329,6 +406,42 @@
         },
         "runtime": {
           "DataLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Domain/1.0.0": {
+        "dependencies": {
+          "CSharpFunctionalExtensions": "3.4.3"
+        },
+        "runtime": {
+          "Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.1"
+        },
+        "runtime": {
+          "Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Presentation/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "9.0.1",
+          "Microsoft.AspNetCore.Routing": "2.3.0"
+        },
+        "runtime": {
+          "Presentation.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -362,12 +475,47 @@
       "path": "csharpfunctionalextensions/3.4.3",
       "hashPath": "csharpfunctionalextensions.3.4.3.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-39r9PPrjA6s0blyFv5qarckjNkaHRA5B+3b53ybuGGNTXEj1/DStQJ4NWjFL6QTRQpL9zt7nDyKxZdJOlcnq+Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.3.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Extensions/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EY2u/wFF5jsYwGXXswfQWrSsFPmiXsniAlUWo3rv/MGYf99ZFsENDnZcQP6W3c/+xQmQXq0NauzQ7jyy+o1LDQ==",
+      "path": "microsoft.aspnetcore.http.extensions/2.3.0",
+      "hashPath": "microsoft.aspnetcore.http.extensions.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f10WUgcsKqrkmnz6gt8HeZ7kyKjYN30PO7cSic1lPtH7paPtnQqXPOveul/SIPI43PhRD4trttg4ywnrEmmJpA==",
+      "path": "microsoft.aspnetcore.http.features/2.3.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.OpenApi/9.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-xRJe8UrLnOGs6hOBrT/4r74q97626H0mABb/DV0smlReIx6uQCENAe+TUqF6hD3NtT4sB+qrvWhAej6kxPxgew==",
       "path": "microsoft.aspnetcore.openapi/9.0.1",
       "hashPath": "microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Routing/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-no5/VC0CAQuT4PK4rp2K5fqwuSfzr2mdB6m1XNfWVhHnwzpRQzKAu9flChiT/JTLKwVI0Vq2MSmSW2OFMDCNXg==",
+      "path": "microsoft.aspnetcore.routing/2.3.0",
+      "hashPath": "microsoft.aspnetcore.routing.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Routing.Abstractions/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZkFpUrSmp6TocxZLBEX3IBv5dPMbQuMs6L/BPl0WRfn32UVOtNYJQ0bLdh3cL9LMV0rmTW/5R0w8CBYxr0AOUw==",
+      "path": "microsoft.aspnetcore.routing.abstractions/2.3.0",
+      "hashPath": "microsoft.aspnetcore.routing.abstractions.2.3.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/9.0.1": {
       "type": "package",
@@ -432,6 +580,13 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.1",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512"
     },
+    "Microsoft.Extensions.DependencyModel/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mUBDZZRgZrSyFOsJ2qJJ9fXfqd/kXJwf3AiDoqLD9m6TjY5OO/vLNOb9fb4juC0487eq4hcGN/M2Rh/CKS7QYw==",
+      "path": "microsoft.extensions.dependencymodel/8.0.2",
+      "hashPath": "microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512"
+    },
     "Microsoft.Extensions.FileProviders.Abstractions/9.0.0": {
       "type": "package",
       "serviceable": true,
@@ -460,6 +615,13 @@
       "path": "microsoft.extensions.logging.abstractions/9.0.1",
       "hashPath": "microsoft.extensions.logging.abstractions.9.0.1.nupkg.sha512"
     },
+    "Microsoft.Extensions.ObjectPool/8.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ApKcHNJigXBfZa6XlDQ8feJpq7SG1ogZXg6M4FiNzgd6irs3LUAzo0Pfn4F2ZI9liGnH1XIBR/OtSbZmJAV5w==",
+      "path": "microsoft.extensions.objectpool/8.0.11",
+      "hashPath": "microsoft.extensions.objectpool.8.0.11.nupkg.sha512"
+    },
     "Microsoft.Extensions.Options/9.0.1": {
       "type": "package",
       "serviceable": true,
@@ -473,6 +635,13 @@
       "sha512": "sha512-bHtTesA4lrSGD1ZUaMIx6frU3wyy0vYtTa/hM6gGQu5QNrydObv8T5COiGUWsisflAfmsaFOe9Xvw5NSO99z0g==",
       "path": "microsoft.extensions.primitives/9.0.1",
       "hashPath": "microsoft.extensions.primitives.9.0.1.nupkg.sha512"
+    },
+    "Microsoft.Net.Http.Headers/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/M0wVg6tJUOHutWD3BMOUVZAioJVXe0tCpFiovzv0T9T12TBf4MnaHP0efO8TCr1a6O9RZgQeZ9Gdark8L9XdA==",
+      "path": "microsoft.net.http.headers/2.3.0",
+      "hashPath": "microsoft.net.http.headers.2.3.0.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.6.22": {
       "type": "package",
@@ -565,6 +734,13 @@
       "path": "nswag.generation.aspnetcore/14.2.0",
       "hashPath": "nswag.generation.aspnetcore.14.2.0.nupkg.sha512"
     },
+    "Scrutor/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5xKT6ND5GqnFzwSaYozHCJe75GFL8sPy4yw/iRFqeBFGlmqPNFpOg1T9Q0Gl2h76Cklt0ZTg6Ypkri5iUBKXsA==",
+      "path": "scrutor/6.0.1",
+      "hashPath": "scrutor.6.0.1.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/7.2.0": {
       "type": "package",
       "serviceable": true,
@@ -593,6 +769,20 @@
       "path": "swashbuckle.aspnetcore.swaggerui/7.2.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.7.2.0.nupkg.sha512"
     },
+    "System.Buffers/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lN6tZi7Q46zFzAbRYXTIvfXcyvQQgxnY7Xm6C6xQ9784dEL1amjM6S6Iw4ZpsvesAKnRVsM4scrDQaDqSClkjA==",
+      "path": "system.buffers/4.6.0",
+      "hashPath": "system.buffers.4.6.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
     "YamlDotNet/16.2.0": {
       "type": "package",
       "serviceable": true,
@@ -600,12 +790,32 @@
       "path": "yamldotnet/16.2.0",
       "hashPath": "yamldotnet.16.2.0.nupkg.sha512"
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "BusinessLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Presentation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

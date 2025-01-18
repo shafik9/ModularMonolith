@@ -47,6 +47,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -106,6 +112,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "CSharpFunctionalExtensions": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

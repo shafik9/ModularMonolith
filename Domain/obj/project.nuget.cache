@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4g5so1etAMU=",
+  "dgSpecHash": "btlzKIhldH0=",
   "success": true,
   "projectFilePath": "C:\\Users\\hossam\\github\\ModularMonolith\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hossam\\.nuget\\packages\\csharpfunctionalextensions\\3.4.3\\csharpfunctionalextensions.3.4.3.nupkg.sha512"
+  ],
   "logs": []
 }
