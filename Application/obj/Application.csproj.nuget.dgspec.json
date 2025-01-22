@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj": {}
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -39,8 +39,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj"
               }
             }
           }
@@ -91,12 +91,12 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\obj\\",
         "projectStyle": "PackageReference",

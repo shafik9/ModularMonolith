@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+QcPmXfbCaQ=",
+  "dgSpecHash": "OatMLsr/7RU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HodaElKholy\\.nuget\\packages\\csharpfunctionalextensions\\3.4.3\\csharpfunctionalextensions.3.4.3.nupkg.sha512",
     "C:\\Users\\HodaElKholy\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",

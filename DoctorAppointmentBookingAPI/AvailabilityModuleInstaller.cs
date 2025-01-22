@@ -25,11 +25,11 @@ public static class AvailabilityModuleInstaller
         services.AddScoped<IAppointmentContext>(
             serviceCollection => serviceCollection.GetService<AppointmentContext>()!);
 
-        //services.Scan(scan => scan
-        //    .FromAssemblyOf<IApplicationService>()
-        //    .AddClasses(classes => classes.AssignableTo<IApplicationService>())
-        //    .AsImplementedInterfaces()
-        //    .WithTransientLifetime());
+        services.Scan(scan => scan
+            .FromAssemblyOf<IApplicationService>()
+            .AddClasses(classes => classes.AssignableTo<IApplicationService>())
+            .AsImplementedInterfaces()
+            .WithTransientLifetime());
         return services;
     }
 

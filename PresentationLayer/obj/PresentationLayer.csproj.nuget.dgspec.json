@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {}
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
@@ -39,8 +39,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -85,12 +85,12 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
@@ -172,12 +172,12 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
         "projectName": "PresentationLayer",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
@@ -207,8 +207,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }

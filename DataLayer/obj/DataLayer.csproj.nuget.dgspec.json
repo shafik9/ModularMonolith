@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",

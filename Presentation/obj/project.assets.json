@@ -7992,9 +7992,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Presentation\\Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj",
       "projectName": "Presentation",
-      "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Presentation\\Presentation.csproj",
+      "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj",
       "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Presentation\\obj\\",
       "projectStyle": "PackageReference",
@@ -8024,8 +8024,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj"
+            "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj"
             }
           }
         }

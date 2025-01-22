@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj": {}
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -39,8 +39,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -120,8 +120,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj"
               }
             }
           }
@@ -172,12 +172,12 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -255,12 +255,12 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
@@ -342,14 +342,14 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
         "projectName": "DoctorAppointmentBookingAPI",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -377,17 +377,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj"
               },
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Presentation\\Presentation.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Presentation\\Presentation.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj"
               },
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\Shell.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\Shell.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj"
               }
             }
           }
@@ -418,6 +418,10 @@
             "NSwag.AspNetCore": {
               "target": "Package",
               "version": "[14.2.0, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -457,12 +461,12 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -540,14 +544,14 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -575,8 +579,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj"
               }
             }
           }
@@ -627,14 +631,14 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
         "projectName": "PresentationLayer",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\PresentationLayer\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -662,8 +666,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -718,14 +722,14 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Presentation\\Presentation.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Presentation\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -753,8 +757,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj"
               }
             }
           }
@@ -813,14 +817,14 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\Shell.csproj": {
+    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\Shell.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj",
         "projectName": "Shell",
-        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\Shell.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -848,8 +852,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj"
+              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj"
               }
             }
           }
