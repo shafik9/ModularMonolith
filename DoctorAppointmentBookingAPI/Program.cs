@@ -1,8 +1,5 @@
 using System.Reflection;
 using DoctorAppointmentBookingAPI;
-using Microsoft.OpenApi.Models;
-using Microsoft.AspNetCore.Builder;
-using NSwag.AspNetCore;
 using Presentation.EndPoint;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,16 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services
-    .InstallAvailabilityModules()
-    .InstallAppointmentModule();
+builder.Services.InstallAvailabilityModules()
+                .InstallAppointmentModule()
+                .InstallAppointmentManagement();
 builder.Services.AddControllers()
     .AddApplicationPart(Assembly.GetAssembly(typeof(PresentationLayer.EndPointMarker.DoctorAvailabilityEndPoint))!)
-<<<<<<< HEAD
-    .AddApplicationPart(Assembly.GetAssembly(typeof(Shell.EndPointMarker.AppointmentStatusEndPoint))!);
-=======
+    .AddApplicationPart(Assembly.GetAssembly(typeof(Shell.EndPointMarker.AppointmentStatusEndPoint))!)
     .AddApplicationPart(Assembly.GetAssembly(typeof(AppointmentBookingEndPoint))!);
->>>>>>> e1ca13ee214c8313524f5bc0c86961cc27dc71ba
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c

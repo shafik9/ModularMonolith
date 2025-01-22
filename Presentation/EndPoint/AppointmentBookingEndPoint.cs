@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-
 using Microsoft.AspNetCore.Mvc;
-
-namespace Presentation.Interface;
-=======
 using Application.Appointments;
 using Application.Appointments.AppointmentDtos;
-using Microsoft.AspNetCore.Mvc;
->>>>>>> e1ca13ee214c8313524f5bc0c86961cc27dc71ba
+
 
 namespace Presentation.EndPoint;
 
