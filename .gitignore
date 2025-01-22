@@ -403,3 +403,71 @@ FodyWeavers.xsd
 *.nuget.cache
 *.AssemblyInfo.cs
 *.AssemblyInfoInputs.cache
+/ BusinessLayer/obj/BusinessLayer.csproj.nuget.dgspec.json
+/ BusinessLayer/obj/Debug/net9.0/BusinessLayer.AssemblyInfo.cs
+/ BusinessLayer/obj/Debug/net9.0/BusinessLayer.AssemblyInfoInputs.cache
+/ BusinessLayer/obj/Debug/net9.0/BusinessLayer.assets.cache
+/ BusinessLayer/obj/Debug/net9.0/BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/ BusinessLayer/obj/project.assets.json
+/ BusinessLayer/obj/project.nuget.cache
+/Application/obj/Debug/net9.0/Application.AssemblyInfo.cs
+/Application/obj/Debug/net9.0/Application.AssemblyInfoInputs.cache
+/Application/obj/Debug/net9.0/Application.assets.cache
+/Application/obj/Debug/net9.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Core/obj/Core.csproj.nuget.dgspec.json
+/Core/obj/Debug/net9.0/Core.AssemblyInfo.cs
+/Core/obj/Debug/net9.0/Core.AssemblyInfoInputs.cache
+/Core/obj/Debug/net9.0/Core.assets.cache
+/Core/obj/Debug/net9.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Core/obj/project.nuget.cache
+/DataLayer/obj/DataLayer.csproj.nuget.dgspec.json
+/DataLayer/obj/Debug/net9.0/DataLayer.AssemblyInfo.cs
+/DataLayer/obj/Debug/net9.0/DataLayer.AssemblyInfoInputs.cache
+/DataLayer/obj/Debug/net9.0/DataLayer.assets.cache
+/DataLayer/obj/Debug/net9.0/DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/DataLayer/obj/project.nuget.cache
+/DoctorAppointmentBookingAPI/obj/Debug/net9.0/DoctorAppointmentBookingAPI.assets.cache
+/DoctorAppointmentBookingAPI/obj/Debug/net9.0/DoctorAppointmentBookingAPI.GeneratedMSBuildEditorConfig.editorconfig
+/DoctorAppointmentBookingAPI/obj/DoctorAppointmentBookingAPI.csproj.nuget.dgspec.json
+/DoctorAppointmentBookingAPI/obj/project.assets.json
+/DoctorAppointmentBookingAPI/obj/project.nuget.cache
+/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs
+/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache
+/Domain/obj/Debug/net9.0/Domain.assets.cache
+/Domain/obj/Debug/net9.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Domain/obj/Domain.csproj.nuget.dgspec.json
+/Domain/obj/project.nuget.cache
+/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs
+/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache
+/Infrastructure/obj/Debug/net9.0/Infrastructure.assets.cache
+/Infrastructure/obj/Debug/net9.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json
+/Infrastructure/obj/project.assets.json
+/Infrastructure/obj/project.nuget.cache
+/Notifications/obj/Debug/net9.0/Notifications.AssemblyInfo.cs
+/Notifications/obj/Debug/net9.0/Notifications.AssemblyInfoInputs.cache
+/Notifications/obj/Debug/net9.0/Notifications.assets.cache
+/Notifications/obj/Debug/net9.0/Notifications.GeneratedMSBuildEditorConfig.editorconfig
+/Notifications/obj/Notifications.csproj.nuget.dgspec.json
+/Notifications/obj/project.nuget.cache
+/Presentation/obj/Debug/net9.0/Presentation.AssemblyInfo.cs
+/Presentation/obj/Debug/net9.0/Presentation.AssemblyInfoInputs.cache
+/Presentation/obj/Debug/net9.0/Presentation.assets.cache
+/Presentation/obj/Debug/net9.0/Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/Presentation/obj/Presentation.csproj.nuget.dgspec.json
+/Presentation/obj/project.assets.json
+/Presentation/obj/project.nuget.cache
+/PresentationLayer/obj/Debug/net9.0/PresentationLayer.AssemblyInfo.cs
+/PresentationLayer/obj/Debug/net9.0/PresentationLayer.AssemblyInfoInputs.cache
+/PresentationLayer/obj/Debug/net9.0/PresentationLayer.assets.cache
+/PresentationLayer/obj/Debug/net9.0/PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+/PresentationLayer/obj/PresentationLayer.csproj.nuget.dgspec.json
+/PresentationLayer/obj/project.assets.json
+/PresentationLayer/obj/project.nuget.cache
+/Shell/obj/Debug/net9.0/Shell.AssemblyInfo.cs
+/Shell/obj/Debug/net9.0/Shell.AssemblyInfoInputs.cache
+/Shell/obj/Debug/net9.0/Shell.assets.cache
+/Shell/obj/Debug/net9.0/Shell.GeneratedMSBuildEditorConfig.editorconfig
+/Shell/obj/project.assets.json
+/Shell/obj/project.nuget.cache
+/Shell/obj/Shell.csproj.nuget.dgspec.json
