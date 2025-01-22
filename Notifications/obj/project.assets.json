@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Notifications\\Notifications.csproj",
+      "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Notifications\\Notifications.csproj",
       "projectName": "Notifications",
-      "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Notifications\\Notifications.csproj",
+      "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Notifications\\Notifications.csproj",
       "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Notifications\\obj\\",
+      "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Notifications\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

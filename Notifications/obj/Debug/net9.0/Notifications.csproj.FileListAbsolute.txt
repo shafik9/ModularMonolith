@@ -1,15 +1,3 @@
-C:\Users\hossam\github\ModularMonolith\Notifications\bin\Debug\net9.0\Notifications.deps.json
-C:\Users\hossam\github\ModularMonolith\Notifications\bin\Debug\net9.0\Notifications.dll
-C:\Users\hossam\github\ModularMonolith\Notifications\bin\Debug\net9.0\Notifications.pdb
-C:\Users\hossam\github\ModularMonolith\Notifications\obj\Debug\net9.0\Notifications.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\hossam\github\ModularMonolith\Notifications\obj\Debug\net9.0\Notifications.AssemblyInfoInputs.cache
-C:\Users\hossam\github\ModularMonolith\Notifications\obj\Debug\net9.0\Notifications.AssemblyInfo.cs
-C:\Users\hossam\github\ModularMonolith\Notifications\obj\Debug\net9.0\Notifications.csproj.CoreCompileInputs.cache
-C:\Users\hossam\github\ModularMonolith\Notifications\obj\Debug\net9.0\Notifications.sourcelink.json
-C:\Users\hossam\github\ModularMonolith\Notifications\obj\Debug\net9.0\Notifications.dll
-C:\Users\hossam\github\ModularMonolith\Notifications\obj\Debug\net9.0\refint\Notifications.dll
-C:\Users\hossam\github\ModularMonolith\Notifications\obj\Debug\net9.0\Notifications.pdb
-C:\Users\hossam\github\ModularMonolith\Notifications\obj\Debug\net9.0\ref\Notifications.dll
 C:\Users\HodaElKholy\Source\Repos\ModularMonolith\Notifications\bin\Debug\net9.0\Notifications.deps.json
 C:\Users\HodaElKholy\Source\Repos\ModularMonolith\Notifications\bin\Debug\net9.0\Notifications.dll
 C:\Users\HodaElKholy\Source\Repos\ModularMonolith\Notifications\bin\Debug\net9.0\Notifications.pdb
