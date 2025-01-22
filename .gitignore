@@ -401,3 +401,5 @@ FodyWeavers.xsd
 
 *.csproj.nuget.dgspec.json
 *.nuget.cache
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
