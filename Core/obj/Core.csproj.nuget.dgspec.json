@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj": {}
+    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj": {
+    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

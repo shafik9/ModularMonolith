@@ -17,7 +17,7 @@ namespace Shell.Adapter
         public async Task<Result> CancelAppointmentStatus(Guid appointmentId)
         {
             var result = await _repo.ChangeAppointmentStatus(appointmentId, AppointmentStatusEnum.Canceled.GetHashCode());
-            if (!string.IsNullOrEmpty(result.Id.ToString()))
+            if (!result.IsSuccess)
                 return Result.Success();
             else
                 return Result.Failure("Can't Cancel this Appointment");
@@ -26,7 +26,7 @@ namespace Shell.Adapter
         public async  Task<Result> CompleteAppointmentStatus(Guid appointmentId)
         {
             var result = await _repo.ChangeAppointmentStatus(appointmentId, AppointmentStatusEnum.Completed.GetHashCode());
-            if (!string.IsNullOrEmpty(result.Id.ToString()))
+            if (!result.IsSuccess)
                 return Result.Success();
             else
                 return Result.Failure("Can't Complete this Appointment");

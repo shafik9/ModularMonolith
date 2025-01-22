@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bLfuoKuFKIQ=",
+  "dgSpecHash": "bM6DnH1MHUo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Notifications\\Notifications.csproj",
+  "projectFilePath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Notifications\\Notifications.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HodaElKholy\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.102\\microsoft.net.sdk.compilers.toolset.9.0.102.nupkg.sha512"
   ],

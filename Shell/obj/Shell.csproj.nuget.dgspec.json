@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj": {}
+    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\Shell.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj": {
+    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj": {
+    "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\Shell.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj",
+        "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\Shell.csproj",
         "projectName": "Shell",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj",
+        "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\Shell.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Shell\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -122,8 +122,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj"
+              "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\Core.csproj"
               }
             }
           }

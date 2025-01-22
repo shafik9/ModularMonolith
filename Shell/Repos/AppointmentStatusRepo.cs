@@ -1,9 +1,11 @@
-﻿using Shell.Entities;
+﻿using Core.Interfaces;
+using CSharpFunctionalExtensions;
+using Shell.Entities;
 
 
 namespace Shell.Repos
 {
-    public class AppointmentStatusRepository
+    public class AppointmentStatusRepository : IAppointmentStatusRepository
     {
         private readonly AppointmentManagementContext _doctorAvailabilityContext;
         public AppointmentStatusRepository(AppointmentManagementContext doctorAvailabilityContext)
@@ -11,7 +13,7 @@ namespace Shell.Repos
             _doctorAvailabilityContext = doctorAvailabilityContext;
         }
 
-        public async Task<DbAppointmentStatus> ChangeAppointmentStatus(Guid appointmentId, int statusId)
+        public async Task<Result> ChangeAppointmentStatus(Guid appointmentId, int statusId)
         {
             var dbModel = new DbAppointmentStatus
             {
@@ -22,7 +24,9 @@ namespace Shell.Repos
 
             _doctorAvailabilityContext.AppointmentStatus.Add(dbModel);
             await _doctorAvailabilityContext.SaveChangesAsync();
-            return dbModel;
+
+            return Result.Success();
+          
         }
     }
 }

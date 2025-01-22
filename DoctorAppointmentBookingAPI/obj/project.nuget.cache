@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NmZFTNzHalw=",
+  "dgSpecHash": "tmf7J8y7tOI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
+  "projectFilePath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HodaElKholy\\.nuget\\packages\\csharpfunctionalextensions\\3.4.3\\csharpfunctionalextensions.3.4.3.nupkg.sha512",
     "C:\\Users\\HodaElKholy\\.nuget\\packages\\microsoft.aspnet.mvc\\5.3.0\\microsoft.aspnet.mvc.5.3.0.nupkg.sha512",
@@ -188,12 +188,6 @@
     "C:\\Users\\HodaElKholy\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.102\\microsoft.net.sdk.compilers.toolset.9.0.102.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1903",
       "level": "Warning",

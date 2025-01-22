@@ -598,11 +598,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj",
+      "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\obj\\",
+      "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -630,8 +630,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj"
+            "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\Domain.csproj"
             }
           }
         }
@@ -681,13 +681,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
