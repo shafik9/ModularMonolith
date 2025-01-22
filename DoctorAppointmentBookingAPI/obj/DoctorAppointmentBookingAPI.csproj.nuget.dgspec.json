@@ -1,46 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj": {}
+    "C:\\Users\\hossam\\github\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\hossam\\github\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\ BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\hossam\\github\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -53,8 +40,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -70,12 +58,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.102, 9.0.102]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -85,43 +67,30 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj": {
+    "C:\\Users\\hossam\\github\\ModularMonolith\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\obj\\",
+        "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj"
+              "C:\\Users\\hossam\\github\\ModularMonolith\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Domain\\Domain.csproj"
               }
             }
           }
@@ -134,8 +103,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -157,12 +127,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.102, 9.0.102]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -172,35 +136,22 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj": {
+    "C:\\Users\\hossam\\github\\ModularMonolith\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\obj\\",
+        "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -217,8 +168,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -240,12 +192,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.102, 9.0.102]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -255,35 +201,22 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\hossam\\github\\ModularMonolith\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\obj\\",
+        "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -300,8 +233,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -327,12 +261,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.102, 9.0.102]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -342,52 +270,39 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj": {
+    "C:\\Users\\hossam\\github\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
+        "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
         "projectName": "DoctorAppointmentBookingAPI",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
-        "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\obj\\",
+        "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
+        "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\DoctorAppointmentBookingAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\hossam\\github\\ModularMonolith\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj"
+              "C:\\Users\\hossam\\github\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
+                "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj"
               },
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj"
+              "C:\\Users\\hossam\\github\\ModularMonolith\\Presentation\\Presentation.csproj": {
+                "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Presentation\\Presentation.csproj"
               },
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj"
+              "C:\\Users\\hossam\\github\\ModularMonolith\\Shell\\Shell.csproj": {
+                "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Shell\\Shell.csproj"
               }
             }
           }
@@ -400,8 +315,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -443,12 +359,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.102, 9.0.102]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -461,35 +371,22 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj": {
+    "C:\\Users\\hossam\\github\\ModularMonolith\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -506,8 +403,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -529,12 +427,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.102, 9.0.102]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -544,43 +436,30 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\hossam\\github\\ModularMonolith\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj"
+              "C:\\Users\\hossam\\github\\ModularMonolith\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Application\\Application.csproj"
               }
             }
           }
@@ -593,8 +472,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -616,12 +496,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.102, 9.0.102]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -631,43 +505,30 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
+    "C:\\Users\\hossam\\github\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
         "projectName": "PresentationLayer",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
-        "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\obj\\",
+        "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj",
+        "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\PresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\hossam\\github\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\ BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -680,8 +541,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -707,12 +569,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.102, 9.0.102]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -722,43 +578,30 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\hossam\\github\\ModularMonolith\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj",
-        "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\obj\\",
+        "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Presentation\\Presentation.csproj",
+        "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Application\\Application.csproj"
+              "C:\\Users\\hossam\\github\\ModularMonolith\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Application\\Application.csproj"
               }
             }
           }
@@ -771,8 +614,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -802,12 +646,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.102, 9.0.102]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -817,43 +655,30 @@
         }
       }
     },
-    "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj": {
+    "C:\\Users\\hossam\\github\\ModularMonolith\\Shell\\Shell.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj",
+        "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\Shell\\Shell.csproj",
         "projectName": "Shell",
-        "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj",
-        "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\obj\\",
+        "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Shell\\Shell.csproj",
+        "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Shell\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj"
+              "C:\\Users\\hossam\\github\\ModularMonolith\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Core\\Core.csproj"
               }
             }
           }
@@ -866,8 +691,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        }
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -897,12 +723,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.102, 9.0.102]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

@@ -9026,57 +9026,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HodaElKholy\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
-    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hossam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
+      "projectUniqueName": "C:\\Users\\hossam\\github\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
       "projectName": "DoctorAppointmentBookingAPI",
-      "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
-      "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DoctorAppointmentBookingAPI\\obj\\",
+      "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\DoctorAppointmentBookingAPI\\DoctorAppointmentBookingAPI.csproj",
+      "packagesPath": "C:\\Users\\hossam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hossam\\github\\ModularMonolith\\DoctorAppointmentBookingAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HodaElKholy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\hossam\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\hossam\\github\\ModularMonolith\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
-              "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj"
+            "C:\\Users\\hossam\\github\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj": {
+              "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\PresentationLayer\\PresentationLayer.csproj"
             },
-            "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj": {
-              "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Presentation\\Presentation.csproj"
+            "C:\\Users\\hossam\\github\\ModularMonolith\\Presentation\\Presentation.csproj": {
+              "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Presentation\\Presentation.csproj"
             },
-            "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj": {
-              "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Shell\\Shell.csproj"
+            "C:\\Users\\hossam\\github\\ModularMonolith\\Shell\\Shell.csproj": {
+              "projectPath": "C:\\Users\\hossam\\github\\ModularMonolith\\Shell\\Shell.csproj"
             }
           }
         }
@@ -9089,8 +9073,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      }
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -9132,12 +9117,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.102, 9.0.102]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9151,16 +9130,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.RegularExpressions' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-cmhx-cq75-c4mj",
-      "libraryId": "System.Text.RegularExpressions",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",
