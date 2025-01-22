@@ -349,3 +349,14 @@ ComponentsGenerated.wxs
 *.wxs
 *-client.ts
 *.Development.json
+/DoctorAppointmentBookingAPI/bin/Debug/net9.0/DoctorAppointmentBookingAPI.dll
+/DoctorAppointmentBookingAPI/bin/Debug/net9.0/DoctorAppointmentBookingAPI.pdb
+/DoctorAppointmentBookingAPI/obj/Debug/net9.0/ref/DoctorAppointmentBookingAPI.dll
+/DoctorAppointmentBookingAPI/obj/Debug/net9.0/refint/DoctorAppointmentBookingAPI.dll
+/DoctorAppointmentBookingAPI/obj/Debug/net9.0/apphost.exe
+/DoctorAppointmentBookingAPI/obj/Debug/net9.0/DoctorAppointmentBookingAPI.AssemblyInfo.cs
+/DoctorAppointmentBookingAPI/obj/Debug/net9.0/DoctorAppointmentBookingAPI.AssemblyInfoInputs.cache
+/DoctorAppointmentBookingAPI/obj/Debug/net9.0/DoctorAppointmentBookingAPI.dll
+/DoctorAppointmentBookingAPI/obj/Debug/net9.0/DoctorAppointmentBookingAPI.pdb
+/DoctorAppointmentBookingAPI/obj/Debug/net9.0/DoctorAppointmentBookingAPI.sourcelink.json
+/DoctorAppointmentBookingAPI/bin/Debug/net9.0/DoctorAppointmentBookingAPI.exe
