@@ -9,8 +9,8 @@ namespace Shell.Adapter
 {
     public class AppointmentStatusAdapter : IAppointmentStatusPort
     {
-        private readonly AppointmentStatusRepository _repo;
-        public AppointmentStatusAdapter(AppointmentStatusRepository repo)
+        private readonly IAppointmentStatusRepository _repo;
+        public AppointmentStatusAdapter(IAppointmentStatusRepository repo)
         {
             _repo = repo;
         }

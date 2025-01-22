@@ -10,6 +10,7 @@ builder.Services.AddOpenApi();
 builder.Services.InstallAvailabilityModules()
                 .InstallAppointmentModule()
                 .InstallAppointmentManagement();
+
 builder.Services.AddControllers()
     .AddApplicationPart(Assembly.GetAssembly(typeof(PresentationLayer.EndPointMarker.DoctorAvailabilityEndPoint))!)
     .AddApplicationPart(Assembly.GetAssembly(typeof(Shell.EndPointMarker.AppointmentStatusEndPoint))!)

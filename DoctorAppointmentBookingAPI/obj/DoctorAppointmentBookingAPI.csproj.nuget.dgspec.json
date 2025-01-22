@@ -179,7 +179,7 @@
         "projectName": "Core",
         "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Core\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -262,7 +262,7 @@
         "projectName": "DataLayer",
         "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -468,7 +468,7 @@
         "projectName": "Domain",
         "projectPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\HodaElKholy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HodaElKholy\\Source\\Repos\\ModularMonolith\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\HodaElKholy\\source\\repos\\ModularMonolith\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
