@@ -1,7 +1,9 @@
 using Application;
+using Application.Interfaces;
 using Core.Interfaces;
 using DataLayer;
 using Infrastructure;
+using Infrastructure.AppointmentConfirmation;
 using Microsoft.EntityFrameworkCore;
 using Notifications.DataAccess;
 using Notifications.NotificationServices;
@@ -32,6 +34,9 @@ public static class AvailabilityModuleInstaller
             .AddClasses(classes => classes.AssignableTo<IApplicationService>())
             .AsImplementedInterfaces()
             .WithTransientLifetime());
+        
+        services.AddScoped<IAppSettings, AppSettings>();
+        services.AddScoped<IAppointmentConfirmationClient, AppointmentConfirmationClient>();
         return services;
     }
 

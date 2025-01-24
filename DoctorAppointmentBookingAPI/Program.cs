@@ -1,5 +1,6 @@
 using System.Reflection;
 using DoctorAppointmentBookingAPI;
+using Notifications.EndpointMarker;
 using Presentation.EndPoint;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +15,9 @@ builder.Services.InstallAvailabilityModules()
     .AddControllers()
     .AddApplicationPart(Assembly.GetAssembly(typeof(PresentationLayer.EndPointMarker.DoctorAvailabilityEndPoint))!)
     .AddApplicationPart(Assembly.GetAssembly(typeof(Shell.EndPointMarker.AppointmentStatusEndPoint))!)
-    .AddApplicationPart(Assembly.GetAssembly(typeof(AppointmentBookingEndPoint))!);
+    .AddApplicationPart(Assembly.GetAssembly(typeof(AppointmentBookingEndPoint))!)
+    .AddApplicationPart(Assembly.GetAssembly(typeof(AppointmentConfirmationEndPointMarker))!);
+
 
 
 builder.Services.AddEndpointsApiExplorer();

@@ -1,4 +1,5 @@
 using Application.Appointments.AppointmentDtos;
+using Application.Interfaces;
 using CSharpFunctionalExtensions;
 using Microsoft.EntityFrameworkCore;
 

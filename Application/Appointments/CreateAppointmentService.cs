@@ -1,9 +1,11 @@
+using Application.Interfaces;
 using CSharpFunctionalExtensions;
 using Domain;
 
 namespace Application.Appointments;
 
-public class CreateAppointmentService(IAppointmentContext appointmentContext) : IApplicationService
+public class CreateAppointmentService(IAppointmentContext appointmentContext,
+    IAppointmentConfirmationClient appointmentConfirmationClient) : IApplicationService
 {
     public async Task<Result<Guid>> Create(
         Guid slotId,
@@ -30,6 +32,7 @@ public class CreateAppointmentService(IAppointmentContext appointmentContext) : 
             return Result.Failure<Guid>("Failed to save appointment");
         }
 
+        appointmentConfirmationClient.SendAppointmentConfirmation(createAppointmentResult.Value);
         return saveResult.IsSuccess
             ? Result.Success<Guid>(createAppointmentResult.Value.Id)
             : Result.Failure<Guid>(saveResult.Error);

@@ -1,4 +1,5 @@
 using Application;
+using Application.Interfaces;
 using CSharpFunctionalExtensions;
 using Domain;
 using Microsoft.EntityFrameworkCore;
