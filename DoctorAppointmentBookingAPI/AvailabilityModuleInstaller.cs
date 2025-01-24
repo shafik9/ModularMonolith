@@ -1,8 +1,12 @@
 using Application;
+using Application.Interfaces;
 using Core.Interfaces;
 using DataLayer;
 using Infrastructure;
+using Infrastructure.AppointmentConfirmation;
 using Microsoft.EntityFrameworkCore;
+using Notifications.DataAccess;
+using Notifications.NotificationServices;
 using Shell;
 using Shell.Adapter;
 using Shell.Repos;
@@ -30,6 +34,9 @@ public static class AvailabilityModuleInstaller
             .AddClasses(classes => classes.AssignableTo<IApplicationService>())
             .AsImplementedInterfaces()
             .WithTransientLifetime());
+        
+        services.AddScoped<IAppSettings, AppSettings>();
+        services.AddScoped<IAppointmentConfirmationClient, AppointmentConfirmationClient>();
         return services;
     }
 
@@ -38,6 +45,16 @@ public static class AvailabilityModuleInstaller
         services.AddScoped<IAppointmentStatusRepository, AppointmentStatusRepository>();
         services.AddScoped<IAppointmentStatusPort, AppointmentStatusAdapter>();
         services.AddDbContext<AppointmentManagementContext>(opt => opt.UseInMemoryDatabase("AppointmentManagementDB"));
+        return services;
+    }
+    
+    
+    public static IServiceCollection InstallAppointmentConfirmationModule(this IServiceCollection services)
+    {
+        services.AddScoped<AppointmentConfirmationContext>();
+        services.AddScoped<PatientConfirmationSenderService>();
+        services.AddScoped<DoctorConfirmationSenderService>();
+        services.AddDbContext<AppointmentManagementContext>(opt => opt.UseInMemoryDatabase("AppointmentConfirmationDB"));
         return services;
     }
 

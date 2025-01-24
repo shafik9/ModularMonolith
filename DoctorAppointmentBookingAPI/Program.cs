@@ -1,5 +1,6 @@
 using System.Reflection;
 using DoctorAppointmentBookingAPI;
+using Notifications.EndpointMarker;
 using Presentation.EndPoint;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,13 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.InstallAvailabilityModules()
-                .InstallAppointmentModule()
-                .InstallAppointmentManagement();
-
-builder.Services.AddControllers()
+    .InstallAppointmentModule()
+    .InstallAppointmentManagement()
+    .InstallAppointmentConfirmationModule()
+    .AddControllers()
     .AddApplicationPart(Assembly.GetAssembly(typeof(PresentationLayer.EndPointMarker.DoctorAvailabilityEndPoint))!)
     .AddApplicationPart(Assembly.GetAssembly(typeof(Shell.EndPointMarker.AppointmentStatusEndPoint))!)
-    .AddApplicationPart(Assembly.GetAssembly(typeof(AppointmentBookingEndPoint))!);
+    .AddApplicationPart(Assembly.GetAssembly(typeof(AppointmentBookingEndPoint))!)
+    .AddApplicationPart(Assembly.GetAssembly(typeof(AppointmentConfirmationEndPointMarker))!);
+
 
 
 builder.Services.AddEndpointsApiExplorer();

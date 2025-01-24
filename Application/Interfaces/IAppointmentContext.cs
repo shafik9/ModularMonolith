@@ -2,7 +2,7 @@ using CSharpFunctionalExtensions;
 using Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Application;
+namespace Application.Interfaces;
 
 public interface IAppointmentContext
 {
